@@ -53,8 +53,6 @@ Bunun için biraz python kullanabiliriz 😉
 ```
 Open fonksiyonun aldığı ilk değer "dosyaadı.uzantı" ikincisi ise üzerine yazacağımız için "w" yazdık
 
-![open fonksiyonu flagleri](/assets/python-get-next-line/flags.png)
-
 Dosyayı okuduk şimdi de write ile yazma işlemini yapalım.
 
 ```python
