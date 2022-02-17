@@ -6,7 +6,7 @@ read from a file descriptor.
 you can use it with: gcc -D BUFFER_SIZE=(Buffer Size you want)                                             
 after that you can ./a.out "file-name.ext"                                             
 
-Herkese selamlar 👋🏽,
+## Herkese selamlar 👋🏽,
 
 umarım gününüz güzel geçiyordur. Bugün sizlere evolarımda gösterdiğim get-next-line için yaptığım python text dosyası oluşturucusunu göstermek istiyorum.
 
