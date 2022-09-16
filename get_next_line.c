@@ -110,19 +110,18 @@ char	*get_next_line(int fd)
 int   main(int argc, char **argv)
 {
   int   fd;
-  int	fd2;
   char *c;
-  char *x;
 
   fd = open(argv[1], O_RDWR);
   c = get_next_line(fd);
   while(c)
   {
     printf("%s",c);
-	printf("%s",x);
     free(c);
     c = get_next_line(fd);
   }
+  free(c);
   // For checking leaks
   //system("leaks a.out");
+  return (0);
 }
